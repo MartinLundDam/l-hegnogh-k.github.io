@@ -52,12 +52,12 @@
     object-fit: cover;
 }
 
-.imgtext {
+/* .imgtext {
     position: relative;
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} */
 
 .text_on_img {
     position: absolute;
@@ -76,10 +76,10 @@
     /* pointer-events: none; use when OnClick*/ 
 }
 
-.kas {
+/* .kas {
     position: relative;
-    /* z-index: 2; */
-}
+    /* z-index: 2; 
+} */
 
 .grid-item:hover .text_on_img {
    opacity: 1; /* Show the text_on_img on hover */
