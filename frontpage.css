@@ -67,9 +67,9 @@
     transition: opacity 0.3s ease; /* Smooth transition effect */
     pointer-events: none;
 }
-/*.grid-item:hover .text_on_img {*/
-/*    opacity: 1; !* Show the text_on_img on hover *!*/
-/*}*/
+.grid-item:hover .text_on_img {
+   opacity: 1; /* Show the text_on_img on hover */
+}
 
 .text_on_img h2 {
     color: #0e490c;
@@ -85,9 +85,9 @@
     font-weight: bolder;
 }
 
-.grid-item.active .text_on_img {
-    opacity: 1; /* Show the text_on_img on click */
-}
+/* .grid-item.active .text_on_img {
+    opacity: 1; /* Show the text_on_img on click 
+} */
 
 .price_list {
     list-style: none;
