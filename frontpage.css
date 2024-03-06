@@ -76,14 +76,14 @@
     /* pointer-events: none; use when OnClick*/ 
 }
 
-/* .kas {
+.kas {
     position: relative;
-    /* z-index: 2; 
-} */
+    z-index: 2; 
+}
 
 .grid-item:hover .text_on_img {
    opacity: 1; /* Show the text_on_img on hover */
-   /* z-index: 1; */
+   z-index: 1;
 }
 
 .text_on_img h2 {
