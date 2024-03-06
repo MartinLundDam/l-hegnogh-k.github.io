@@ -24,12 +24,6 @@
     object-fit: cover;
     object-position: center center;
 }
-.grid-item {
-    position: relative; /*test*/
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 .grid-item:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 100, 0, 0.2), 0 6px 20px 0 rgba(86, 213, 86, 0.7);
@@ -51,8 +45,15 @@
     padding: 10px 20px;
 }
 
+.grid-item {
+    position: relative; /*test*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .text_on_img {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -67,6 +68,12 @@
     transition: opacity 0.3s ease; /* Smooth transition effect */
     /* pointer-events: none; use when OnClick*/ 
 }
+
+.kas {
+    position: relative;
+    /* z-index: 2; */
+}
+
 .grid-item:hover .text_on_img {
    opacity: 1; /* Show the text_on_img on hover */
 }
