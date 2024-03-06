@@ -76,6 +76,7 @@
 
 .grid-item:hover .text_on_img {
    opacity: 1; /* Show the text_on_img on hover */
+   z-index: 1;
 }
 
 .text_on_img h2 {
