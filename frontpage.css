@@ -71,7 +71,7 @@
 
 .kas {
     position: relative;
-    /* z-index: 2; */
+    z-index: 2;
 }
 
 .grid-item:hover .text_on_img {
