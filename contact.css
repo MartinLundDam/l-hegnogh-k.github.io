@@ -35,9 +35,12 @@
 }
 
 .sections {
-    margin-top: 100px;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
