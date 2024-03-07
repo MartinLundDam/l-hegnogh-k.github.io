@@ -18,6 +18,10 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
+.intro p {
+    font-family: monospace;
+    font-size: 17px;
+}
 
 .serv {
     display: grid;
