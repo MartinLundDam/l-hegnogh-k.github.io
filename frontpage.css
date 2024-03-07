@@ -7,29 +7,6 @@
     padding: 0;
 }
 
-.serv {
-    display: grid;
-    grid-template-columns: repeat(2,minmax(0,1fr));
-    /* grid-template-columns: repeat(3,1fr)); 3 på en række */
-    grid-gap: 1rem ;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 20px;
-    padding: 35px 35px 35px 35px;
-    /* width: 100vw; */
-    /*margin: 0 auto;*/
-}
-
-.image-resize {
-    object-fit: cover;
-    object-position: center center;
-}
-
-.grid-item:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 100, 0, 0.2), 0 6px 20px 0 rgba(86, 213, 86, 0.7);
-}
-
 .intro {
     padding: 15px 15px;
     margin-top: 50px;
@@ -41,9 +18,19 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.kas {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 10px 20px;
+.serv {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    /* grid-template-columns: repeat(3,1fr)); 3 på en række */
+    grid-gap: 1rem ;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding: 35px 35px 35px 35px;
+    /* width: 100vw; */
+    /*margin: 0 auto;*/
+    object-fit: cover;
 }
 
 .grid-item {
@@ -51,7 +38,30 @@
     width: 100%;
     /* height: 100%; */
     object-fit: cover;
+
 }
+
+.grid-item img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.image-resize {
+    object-fit: cover;
+    object-position: center center;
+}
+
+.grid-item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 100, 0, 0.2), 0 6px 20px 0 rgba(86, 213, 86, 0.7);
+}
+
+
+.kas {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px 20px;
+}
+
 
 .text_on_img {
     position: absolute;
@@ -64,7 +74,7 @@
     /*transform: translate(-50%, -50%);*/
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
     padding: 10px;
-    text-align: center; /* Center the text within the overlay */
+    text-align: flex-start; /* Center the text within the overlay */
     opacity: 0; /* Initially hide the text_on_img */
     transition: opacity 0.3s ease; /* Smooth transition effect */
     /* pointer-events: none; use when OnClick*/ 
