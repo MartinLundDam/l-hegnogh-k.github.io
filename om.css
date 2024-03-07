@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:ital,wght@0,300;1,400&family=Roboto+Mono:wght@100&display=swap');
+/* hjælper den nye text overhovedet? */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.about_me {
+    margin-top: 60px;
+}
