@@ -9,14 +9,15 @@
 
 .serv {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-gap: 1rem ;
     align-items: center;
     justify-content: center;
     text-align: center;
     gap: 20px;
+    grid-gap: 20px;
     padding: 35px 35px 35px 35px;
-    /*width: 100vw;*/
+    width: 100vw;
     /*margin: 0 auto;*/
 }
 
