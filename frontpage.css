@@ -9,13 +9,14 @@
 
 .intro {
     padding: 15px 15px;
-    margin-top: 50px;
+    margin-top: 30px;
     border: #0e490c;
     /*background-color: aqua;*/
 }
 .intro h3 {
     color: #0e490c;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 .serv {

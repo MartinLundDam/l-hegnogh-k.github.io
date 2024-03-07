@@ -8,5 +8,80 @@
 }
 
 .about_me {
-    margin-top: 60px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 60px; */
+    /* margin: 30px; */
+    padding: 10px;
+    border: solid 8px green;
+    width: 90%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    /* flex-direction: column; */
+    /* object-fit: cover; */
 }
+
+.about_me img {
+    max-height: 700px;
+    margin: 10px;
+}
+.about_me h1 {
+    color: rgb(9, 150, 72);
+
+}
+
+.about_me h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.overskrift {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.text {
+    margin: 15px;
+    font-family: monospace;
+    font-size: 20px;
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    .text {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+}
+
+.background_img {
+    display: flex;
+    position: relative;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.image_behind {
+    aspect-ratio: 1 / 1;
+}
+
+.background_img img {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.image-resize {
+    object-fit: cover;
+    object-position: center center;
+}
+
+img {
+    max-height: 100%;
+    max-height: 100%;
+}
+
